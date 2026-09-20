@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://dhg0wpqtkc3tp"]
 
 [ext_resource type="Texture2D" uid="uid://pbmiit6n0tiv" path="res://Screenshot_2026-09-14_164848-removebg-preview.png" id="1_0xm2m"]
-[ext_resource type="Texture2D" uid="uid://cy43c3uuksiol" path="res://e928718a79775325fe334669e96a7a61f20fed6a.png" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://xnm42te5k26y" path="res://addons/Background.png" id="1_4c57u"]
 [ext_resource type="Texture2D" uid="uid://cmqgv5qh1qp8y" path="res://Screenshot 2026-09-13 152956.png" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://db7kp8v45vy7l" path="res://Spike-Sprite.png" id="4_1bvp3"]
 [ext_resource type="AudioStream" uid="uid://xetu7e4xkvbd" path="res://addons/ihatetuesdays-jungle-ish-beat-for-video-games-314073.mp3" id="4_4c57u"]
@@ -104,11 +104,12 @@ repeat_size = Vector2(1726, 0)
 repeat_times = 2
 
 [node name="TextureRect" type="TextureRect" parent="Parallax2D" unique_id=1272385444]
-offset_left = 258.0
-offset_top = 193.0
-offset_right = 298.0
-offset_bottom = 233.0
-texture = ExtResource("1_h2yge")
+offset_left = 928.0
+offset_top = -957.0
+offset_right = 2657.0
+offset_bottom = -164.0
+scale = Vector2(3.5999992, 2.8400006)
+texture = ExtResource("1_4c57u")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=862761837]
 position = Vector2(258, 193)
